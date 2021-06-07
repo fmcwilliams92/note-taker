@@ -23,3 +23,7 @@ THEN that note appears in the right-hand column
 
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+
+https://glacial-temple-67454.herokuapp.com/notes
+
+<img width="1323" alt="Screen Shot 2021-06-06 at 7 38 15 PM" src="https://user-images.githubusercontent.com/80353368/120945478-bf651e00-c6fe-11eb-8968-a9a84ad2e4d3.png">
