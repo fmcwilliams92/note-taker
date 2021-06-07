@@ -13,8 +13,8 @@ const port = process.env.PORT || 3001;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
-app.use('/html', htmlRoutes);
 app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
 // alert that the server is running
 app.listen(port, () => {
